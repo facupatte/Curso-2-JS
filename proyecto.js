@@ -7,7 +7,7 @@ let electroAcustica = 300;
 let acustica = 100;
 
 
-const descuentoDel10 = 0.1;
+const descuentoDelDiez = 0.1;
 
 function descuento (valorTotal){
     if(total>=600){
@@ -19,7 +19,7 @@ function descuento (valorTotal){
 
 let tipoDeGuitarra = prompt("*****Bienvenid@s a GUITARR PALACE*****\n¿QUE ESTÁS BUSCANDO?\nPresiona según tus intereses:\n1- Guitarra Eléctrica USD 500 \n2- Guitarra Electroacústica USD 300 \n3- Guitarra Acústica USD 100 \nf- Para Salir");
 
-while (tipoDeGuitarra!="f"){
+while (tipoDeGuitarra !== "f" ){
     switch (tipoDeGuitarra){
         case "1":
             total=total+electrica;
@@ -41,7 +41,7 @@ while (tipoDeGuitarra!="f"){
     tipoDeGuitarra = prompt("*****Bienvenid@s a GUITARR PALACE*****\n¿QUE ESTÁS BUSCANDO?\nPresiona según tus intereses:\n1- Guitarra Eléctrica USD 500 \n2- Guitarra Electroacústica USD 300 \n3- Guitarra Acústica USD 100 \n0- Para Salir");
     }
     
-    if (descuento() == true){
+    if (descuento() === true){
         total = total - total*descuentoDel10
     }else{total = total}
     
