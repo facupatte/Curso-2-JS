@@ -38,7 +38,7 @@ while (tipoDeGuitarra !== "f" ){
             break;
     }
 
-    tipoDeGuitarra = prompt("*****Bienvenid@s a GUITARR PALACE*****\n¿QUE ESTÁS BUSCANDO?\nPresiona según tus intereses:\n1- Guitarra Eléctrica USD 500 \n2- Guitarra Electroacústica USD 300 \n3- Guitarra Acústica USD 100 \n0- Para Salir");
+    tipoDeGuitarra = prompt("*****Bienvenid@s a GUITARR PALACE*****\n¿QUE ESTÁS BUSCANDO?\nPresiona según tus intereses:\n1- Guitarra Eléctrica USD 500 \n2- Guitarra Electroacústica USD 300 \n3- Guitarra Acústica USD 100 \nf- Para Salir");
     }
     
     if (descuento() === true){
